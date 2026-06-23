@@ -47,5 +47,4 @@
         state: started
         delay: 5
         timeout: 60
-      one_way: true
 
