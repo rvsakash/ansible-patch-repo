@@ -1,5 +1,5 @@
 [client_nodes]
-10.220.0.13 ansible_user=hpuser ansible_password="pass@123" ansible_ssh_pass="pass@123"
+10.220.0.13 ansible_user=hpuser ansible_password="pass@123" ansible_ssh_pass="pass@123" ansible_become_password="pass@123"
 
 [client_nodes:vars]
 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
