@@ -1,5 +1,5 @@
 [client_nodes]
-10.220.0.13 ansible_user=hpuser ansible_password='HP!nv3nt'
+10.220.0.13 ansible_user=hpuser ansible_password=HP!nv3nt ansible_ssh_pass=HP!nv3nt
 
 [client_nodes:vars]
 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
